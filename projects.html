@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tadashi | Projects</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">Tadashi</a>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <button id="theme-toggle" class="theme-btn">🌙</button>
+    </nav>
+</header>
+
+<main class="projects-page">
+
+    <section class="projects-header">
+        <h1>My Projects</h1>
+        <input type="text" id="project-search" placeholder="Search projects...">
+    </section>
+
+    <section class="projects-list">
+
+        <!-- PROJECT 1 -->
+        <article class="project-card" data-title="Student Gradebook CLI" data-tags="python cli gradebook">
+            <img src="assets/images/gradebook.jpg" alt="Gradebook CLI">
+            <h2>Student Gradebook CLI</h2>
+            <p>A Python command-line application for managing courses and GPA.</p>
+
+            <button class="toggle-details">Details ▾</button>
+
+            <div class="project-details">
+                <h3>Tech used:</h3>
+                <p>Python, JSON</p>
+
+                <h3>Features:</h3>
+                <ul>
+                    <li>Add, update, remove courses</li>
+                    <li>Automatic GPA calculation</li>
+                    <li>Local data saving</li>
+                </ul>
+            </div>
+        </article>
+
+        <!-- PROJECT 2 -->
+        <article class="project-card" data-title="Personal Web Portfolio" data-tags="html css portfolio website">
+            <img src="assets/images/portfolio.jpg" alt="Portfolio Website">
+            <h2>Personal Web Portfolio</h2>
+            <p>A clean and responsive multi-page personal website.</p>
+
+            <button class="toggle-details">Details ▾</button>
+
+            <div class="project-details">
+                <h3>Tech used:</h3>
+                <p>HTML, CSS, JavaScript</p>
+
+                <h3>Features:</h3>
+                <ul>
+                    <li>Modern gradient UI</li>
+                    <li>Dark / Light mode toggle</li>
+                    <li>Responsive design</li>
+                </ul>
+            </div>
+        </article>
+
+        <!-- PROJECT 3 -->
+        <article class="project-card" data-title="Interactive Portfolio" data-tags="javascript interactive portfolio">
+            <img src="assets/images/interactive.jpg" alt="Interactive Portfolio">
+            <h2>Interactive Portfolio</h2>
+            <p>Advanced portfolio with animations and filtering.</p>
+
+            <button class="toggle-details">Details ▾</button>
+
+            <div class="project-details">
+                <h3>Tech used:</h3>
+                <p>JavaScript, CSS Animations</p>
+
+                <h3>Features:</h3>
+                <ul>
+                    <li>Project search filter</li>
+                    <li>Dynamic animations</li>
+                    <li>Contact form validation</li>
+                </ul>
+            </div>
+        </article>
+
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 Tadashi — All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
